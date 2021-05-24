@@ -1,4 +1,6 @@
-# what_is_my_ip
+# whats my ip
+
+![White circle with "whats my ip" and a purple question mark](./logo.png)
 
 ## Motivation
 
