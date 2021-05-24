@@ -3,7 +3,7 @@ prune:
 deploy:
 	@up
 run:
-	@go run main.go
+	@./run.sh
 
 test-local:
 	@./test_local.sh
