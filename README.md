@@ -7,14 +7,28 @@
 I need a service to retrieve the external ip address of my services.
 This is a simple golang lambda which achieves that.
 
-## Deploy
+## Requirements
 
+* [go toolchain](https://golang.org/dl/)
+* [up binary in $PATH](https://apex.sh/docs/up/configuration/)
+
+## Deploy
 ```
-$ up
+$ make deploy
 ```
 
 ## Usage
 
+### Running the server
 ```
-$ curl `up url`
+$ make run
 ```
+
+### Testing the remote
+```
+$ make test-remote
+```
+
+## License
+
+This project is licensed under the GPL-3 license.
