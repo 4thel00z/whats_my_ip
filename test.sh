@@ -1,0 +1,3 @@
+up
+
+curl `up url`
